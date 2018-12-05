@@ -1,3 +1,10 @@
+# Rference
+https://blog.csdn.net/daxus/article/details/84348308
+https://github.com/whitebatman2/rtl8821CU
+
+# Informance
+I test this in Ubuntu 18.04.1 LTS (Linux 4.15.0-39-generic). The usb wifi adapter is TL-WDN5200H.
+
 # rtl8821CU
 [![Build Status](https://travis-ci.org/whitebatman2/rtl8821CU.svg?branch=master)](https://travis-ci.org/whitebatman2/rtl8821CU)
 
@@ -53,7 +60,7 @@ CONFIG_PLATFORM_ARM_RPI = n
 CONFIG_PLATFORM_ARM_RPI3 = y
 ```
 ## Other operation
->>lsusb
+lsusb
 ```
 Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
 Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
@@ -64,7 +71,7 @@ Bus 001 Device 006: ID 0bda:1a2b Realtek Semiconductor Corp.
 Bus 001 Device 005: ID 24ae:4025  
 Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hu
 ```
->>sudo usb_modeswitch -KW -v 0bda -p 1a2b
+sudo usb_modeswitch -KW -v 0bda -p 1a2b
 ```
 Take all parameters from the command line
 
