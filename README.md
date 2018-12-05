@@ -2,7 +2,7 @@
 https://blog.csdn.net/daxus/article/details/84348308
 https://github.com/whitebatman2/rtl8821CU
 
-# Informance
+# Test
 I test this in Ubuntu 18.04.1 LTS (Linux 4.15.0-39-generic). The usb wifi adapter is TL-WDN5200H.
 
 # rtl8821CU
