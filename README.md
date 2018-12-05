@@ -54,7 +54,7 @@ CONFIG_PLATFORM_ARM_RPI3 = y
 ```
 ## Other operation
 >>lsusb
-'''
+```
 Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
 Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
@@ -63,9 +63,9 @@ Bus 001 Device 003: ID 046d:c534 Logitech, Inc. Unifying Receiver
 Bus 001 Device 006: ID 0bda:1a2b Realtek Semiconductor Corp. 
 Bus 001 Device 005: ID 24ae:4025  
 Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hu
-'''
+```
 >>sudo usb_modeswitch -KW -v 0bda -p 1a2b
-'''
+```
 Take all parameters from the command line
 
 
@@ -124,4 +124,4 @@ Read the response to message 3 (CSW) ...
  Device seems to have vanished after reading. Good.
  Device is gone, skip any further commands
 -> Run lsusb to note any changes. Bye!
-'''
+```
