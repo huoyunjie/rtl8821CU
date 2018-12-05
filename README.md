@@ -61,6 +61,8 @@ CONFIG_PLATFORM_ARM_RPI = n
 CONFIG_PLATFORM_ARM_RPI3 = y
 ```
 ## Other operation
+**NOTE: If the kernel is updated, you should operate make clean firstly.
+
 lsusb
 ```
 Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
